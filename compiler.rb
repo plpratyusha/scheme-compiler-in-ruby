@@ -107,8 +107,7 @@ class AST
           bytecode.push(MUL_OP)
         end
       end
-    #
-    # YOUR CODE HERE -- Add 'when' cases to support the other expressions.
+    # Added 'when' cases to support the other expressions.
     else
       raise "Unrecognized op '#{@op}'"
     end

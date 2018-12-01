@@ -34,10 +34,7 @@ class VirtualMachine
           f = @stack.pop
           puts (e * f)
           @stack.push(e * f)
-        #
-        # YOUR CODE HERE -- Add extra 'when' cases to handle
-        # additional operations.
-        #
+        # Added extra 'when' cases to handle additional operations.
         else
           raise "Unrecognized command: '#{ln}'"
         end
